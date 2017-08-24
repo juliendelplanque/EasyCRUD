@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "EasyCRUD-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"easyCrud",
+		"adapter"
+	],
+	"name" : "ECRUDDatabaseAdapterTest",
+	"type" : "normal"
+}

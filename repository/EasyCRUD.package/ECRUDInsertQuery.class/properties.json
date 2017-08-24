@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 8/24/2017 12:07",
+	"super" : "ECRUDQuery",
+	"category" : "EasyCRUD-Queries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dataDict"
+	],
+	"name" : "ECRUDInsertQuery",
+	"type" : "normal"
+}

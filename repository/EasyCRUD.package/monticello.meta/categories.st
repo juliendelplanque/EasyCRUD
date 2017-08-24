@@ -1,0 +1,5 @@
+SystemOrganization addCategory: #EasyCRUD!
+SystemOrganization addCategory: 'EasyCRUD-Adapters'!
+SystemOrganization addCategory: 'EasyCRUD-Model'!
+SystemOrganization addCategory: 'EasyCRUD-Queries'!
+SystemOrganization addCategory: 'EasyCRUD-Tests'!

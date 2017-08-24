@@ -1,0 +1,1 @@
+I am an abstract query with a 'WHERE' clause.

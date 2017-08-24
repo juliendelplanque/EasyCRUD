@@ -1,0 +1,1 @@
+An ECRUDDatabaseAdapterTest is a test class for testing the behavior of ECRUDDatabaseAdapter

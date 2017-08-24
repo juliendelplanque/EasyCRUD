@@ -1,0 +1,1 @@
+I am the description of a table of a relationnal database.

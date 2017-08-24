@@ -1,0 +1,1 @@
+I am an abstract adaptor to a database. My role is to generate well formated queries for the database and to provide a way to execute them.
