@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EasyCRUD-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tableDescription",
+		"databaseAdapter",
+		"specModel"
+	],
+	"name" : "ECRUDSpecTableView",
+	"type" : "normal"
+}
