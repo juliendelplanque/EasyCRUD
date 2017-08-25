@@ -1,3 +1,0 @@
-query generation
-generateUpdateRow: dataDict
-	

@@ -7,7 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tableDescription",
-		"databaseAdapter" ],
+		"databaseAdapter",
+		"subject",
+		"fieldsAliases",
+		"addFieldsNames",
+		"editFieldsNames",
+		"requiredFieldsNames" ],
 	"name" : "EasyCRUD",
 	"pools" : [
 		 ],
