@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-GarageSQLite3",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"driver" ],
+	"name" : "ECRUDGarageSQLite3Adapter",
+	"pools" : [
+		 ],
+	"super" : "ECRUDDatabaseAdapter",
+	"type" : "normal" }
