@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "JulienDelplanque 8/24/2017 12:07",
-	"super" : "ECRUDQueryWithWhereClause",
 	"category" : "EasyCRUD-Queries",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 8/24/2017 12:07",
 	"instvars" : [
 		"fieldsSelected",
 		"limitSize",
 		"offset",
-		"orderByField"
-	],
+		"orderByField" ],
 	"name" : "ECRUDSelectQuery",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ECRUDQueryWithWhereClause",
+	"type" : "normal" }

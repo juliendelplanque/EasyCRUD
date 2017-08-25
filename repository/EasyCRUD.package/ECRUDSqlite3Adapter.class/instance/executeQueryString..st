@@ -1,3 +1,3 @@
 private
 executeQueryString: aString
-	^ driver execute: aString
+	^ (driver execute: aString) rows collect: #values

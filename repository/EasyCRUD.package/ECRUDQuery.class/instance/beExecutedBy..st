@@ -1,3 +1,3 @@
 executing
 beExecutedBy: anECRUDDatabaseAdapter
-	anECRUDDatabaseAdapter executeQuery: self
+	^ anECRUDDatabaseAdapter executeQuery: self

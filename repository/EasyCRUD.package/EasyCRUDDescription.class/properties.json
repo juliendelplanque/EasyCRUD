@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "EasyCRUD",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"dbAdapter",
 		"tableName",
@@ -13,8 +13,9 @@
 		"addFields",
 		"editFields",
 		"columns",
-		"primaryKey"
-	],
+		"primaryKey" ],
 	"name" : "EasyCRUDDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

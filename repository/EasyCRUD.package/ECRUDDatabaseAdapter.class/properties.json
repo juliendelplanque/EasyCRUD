@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JulienDelplanque 8/24/2017 18:33",
-	"super" : "Object",
 	"category" : "EasyCRUD-Adapters",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 8/24/2017 18:33",
+	"instvars" : [
+		 ],
 	"name" : "ECRUDDatabaseAdapter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

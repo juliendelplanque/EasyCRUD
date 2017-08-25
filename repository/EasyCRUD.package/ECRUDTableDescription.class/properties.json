@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "JulienDelplanque 8/24/2017 13:15",
-	"super" : "Object",
 	"category" : "EasyCRUD-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 8/24/2017 13:15",
 	"instvars" : [
 		"name",
 		"pkField",
-		"fields"
-	],
+		"fields" ],
 	"name" : "ECRUDTableDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

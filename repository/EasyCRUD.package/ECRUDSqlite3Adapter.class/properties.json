@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "ECRUDDatabaseAdapter",
 	"category" : "EasyCRUD-Adapters",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"driver"
-	],
+		"driver" ],
 	"name" : "ECRUDSqlite3Adapter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ECRUDDatabaseAdapter",
+	"type" : "normal" }

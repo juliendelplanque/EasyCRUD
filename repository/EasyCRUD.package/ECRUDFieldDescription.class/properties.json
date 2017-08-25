@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "JulienDelplanque 8/24/2017 13:15",
-	"super" : "Object",
 	"category" : "EasyCRUD-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 8/24/2017 13:15",
 	"instvars" : [
 		"name",
-		"type"
-	],
+		"type" ],
 	"name" : "ECRUDFieldDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
