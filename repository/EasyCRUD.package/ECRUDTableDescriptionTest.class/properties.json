@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tableDescription" ],
+	"name" : "ECRUDTableDescriptionTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

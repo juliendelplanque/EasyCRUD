@@ -1,3 +1,3 @@
 accessing
 fieldNamed: aString
-	^ self fields detect: [ :field | field name = aString ]
+	^ self allFields detect: [ :field | field name = aString ]

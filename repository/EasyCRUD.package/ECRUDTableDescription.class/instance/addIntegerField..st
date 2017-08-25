@@ -1,3 +1,3 @@
 adding
 addIntegerField: fieldName
-	^ self addField: fieldName withType: Integer
+	^ self addField: fieldName withType: ECRUDIntegerType

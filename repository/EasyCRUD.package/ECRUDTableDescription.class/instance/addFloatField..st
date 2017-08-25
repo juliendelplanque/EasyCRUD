@@ -1,3 +1,3 @@
 adding
 addFloatField: fieldName
-	^ self addField: fieldName withType: Float
+	^ self addField: fieldName withType: ECRUDFloatType

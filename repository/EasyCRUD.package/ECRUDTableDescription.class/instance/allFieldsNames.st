@@ -1,3 +1,3 @@
 accessing
 allFieldsNames
-	^ { self pkFieldName } , self fieldsNames
+	^ self allFields collect: #name
