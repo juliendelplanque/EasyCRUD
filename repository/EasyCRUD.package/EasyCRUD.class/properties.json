@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dbAdapter",
-		"tableName",
-		"subject",
-		"actions",
-		"addFields",
-		"editFields",
-		"columns",
-		"primaryKey" ],
-	"name" : "EasyCRUDDescription",
+		"tableDescription",
+		"databaseAdapter" ],
+	"name" : "EasyCRUD",
 	"pools" : [
 		 ],
 	"super" : "Object",
