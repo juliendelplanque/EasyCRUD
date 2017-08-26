@@ -1,3 +1,3 @@
 executing
-executeOn: row
+execute
 	self subclassResponsibility

@@ -13,7 +13,8 @@
 		"addFieldsNames",
 		"editFieldsNames",
 		"requiredFieldsNames",
-		"actions" ],
+		"rowActions",
+		"tableActions" ],
 	"name" : "EasyCRUD",
 	"pools" : [
 		 ],

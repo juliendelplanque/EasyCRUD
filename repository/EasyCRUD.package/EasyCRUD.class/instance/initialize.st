@@ -7,4 +7,5 @@ initialize
 	requiredFieldsNames := #().
 	self
 		subject: '';
-		actions: OrderedCollection new
+		rowActions: OrderedCollection new;
+		tableActions: OrderedCollection new

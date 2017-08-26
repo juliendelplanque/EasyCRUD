@@ -1,6 +1,6 @@
 api
-addAction: anECRUDAction
-	self actions
+addRowAction: anECRUDAction
+	self rowActions
 		add: anECRUDAction.
 	anECRUDAction
 		easyCrud: self
