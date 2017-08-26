@@ -2,6 +2,8 @@ actions
 addDefaultActions
 	self
 		addInsertAction;
+		addPreviousPageAction;
+		addNextPageAction;
 		addRefreshAction;
 		addEditAction;
 		addDeleteAction

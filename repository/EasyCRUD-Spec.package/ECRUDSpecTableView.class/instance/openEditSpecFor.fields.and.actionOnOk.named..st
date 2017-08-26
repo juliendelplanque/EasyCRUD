@@ -11,7 +11,7 @@ openEditSpecFor: row fields: fields and: easyC actionOnOk: block named: aString
 		(('ecrudinst_' , field name asLowercase , '_label') asSymbol value: ui)
 			label: (self easyCrud displayNameOfFieldNamed: field name).
 		(('ecrudinst_' , field name asLowercase) asSymbol value: ui)
-			text: (row at: (easyC tableDescription allFieldsNames indexOf: field name)) asString;
+			text: (row at: ((fields collect: #name) indexOf: field name)) asString;
 			autoAccept: true ].
 	ui ecrudinst_cancel
 		label: 'Cancel';
