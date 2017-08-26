@@ -1,15 +1,18 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "EasyCRUD-Spec",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"tableDescription",
-		"databaseAdapter",
-		"specModel"
-	],
+		"easyCrud",
+		"limit",
+		"offset",
+		"list",
+		"menu" ],
 	"name" : "ECRUDSpecTableView",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

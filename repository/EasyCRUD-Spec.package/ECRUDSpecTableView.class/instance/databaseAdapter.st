@@ -1,3 +1,0 @@
-accessing
-databaseAdapter
-	^ databaseAdapter
