@@ -10,5 +10,5 @@ addEditAction
 										field name -> (field type convertString: (('ecrudinst_' , field name asLowercase) asSymbol value: ui) text) ].
 									(easyC tableDescription generateUpdateRow: data asDictionary withId: row first)
 										beExecutedBy: easyC databaseAdapter.
-									self refreshList ] ];
+									self refreshList ] named: 'Edit row' ];
 							yourself)

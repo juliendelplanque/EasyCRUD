@@ -10,5 +10,5 @@ addInsertAction
 										field name -> (field type convertString: (('ecrudinst_' , field name asLowercase) asSymbol value: ui) text) ].
 									(easyC tableDescription generateInsertRow: data asDictionary)
 										beExecutedBy: easyC databaseAdapter.
-									self refreshList ] ];
+									self refreshList ] named: 'Insert row' ];
 							yourself)

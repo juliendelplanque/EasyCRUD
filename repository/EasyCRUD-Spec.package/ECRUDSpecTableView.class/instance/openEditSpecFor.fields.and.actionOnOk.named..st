@@ -1,8 +1,8 @@
 private
-openEditSpecFor: row fields: fields and: easyC actionOnOk: block
+openEditSpecFor: row fields: fields and: easyC actionOnOk: block named: aString
 	|ui layout|
 	ui := DynamicComposableModel new.
-	ui title: 'Edit row'.
+	ui title: aString.
 	ui instantiateModels: (fields collect: [ :field | { 
 									('ecrudinst_' , field name asLowercase , '_label') asSymbol . #LabelModel .
 									('ecrudinst_' , field name asLowercase) asSymbol . #TextInputFieldModel } ]) flattened , 
