@@ -12,7 +12,8 @@
 		"fieldsAliases",
 		"addFieldsNames",
 		"editFieldsNames",
-		"requiredFieldsNames" ],
+		"requiredFieldsNames",
+		"actions" ],
 	"name" : "EasyCRUD",
 	"pools" : [
 		 ],

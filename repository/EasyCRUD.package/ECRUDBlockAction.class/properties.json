@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 8/25/2017 22:24",
+	"instvars" : [
+		"block" ],
+	"name" : "ECRUDBlockAction",
+	"pools" : [
+		 ],
+	"super" : "ECRUDAction",
+	"type" : "normal" }

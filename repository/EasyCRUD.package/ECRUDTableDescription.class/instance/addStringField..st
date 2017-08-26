@@ -1,3 +1,3 @@
 adding
 addStringField: fieldName
-	^ self addField: fieldName withType: ECRUDStringType
+	^ self addField: fieldName withType: ECRUDStringType new

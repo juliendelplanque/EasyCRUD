@@ -1,0 +1,1 @@
+I am an abstract action to do on a row of a table.

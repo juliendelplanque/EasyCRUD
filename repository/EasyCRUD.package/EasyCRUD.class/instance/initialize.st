@@ -4,4 +4,7 @@ initialize
 	fieldsAliases := Dictionary new.
 	addFieldsNames := #().
 	editFieldsNames := #().
-	requiredFieldsNames := #()
+	requiredFieldsNames := #().
+	self
+		subject: '';
+		actions: OrderedCollection new
