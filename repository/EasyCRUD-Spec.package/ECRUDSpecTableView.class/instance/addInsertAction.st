@@ -8,7 +8,6 @@ addInsertAction
 									|data|
 									data := easyC addFields collect: [ :field |
 										field name -> (field type convertString: (('ecrudinst_' , field name asLowercase) asSymbol value: ui) text) ].
-									(easyC tableDescription generateInsertRow: data asDictionary)
-										beExecutedBy: easyC databaseAdapter.
+									easyC insertRow: data asDictionary.
 									self refreshList ] named: 'Insert row' ];
 							yourself)

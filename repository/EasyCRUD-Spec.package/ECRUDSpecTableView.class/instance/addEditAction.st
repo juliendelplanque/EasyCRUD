@@ -8,7 +8,6 @@ addEditAction
 									|data|
 									data := easyC editFields collect: [ :field |
 										field name -> (field type convertString: (('ecrudinst_' , field name asLowercase) asSymbol value: ui) text) ].
-									(easyC tableDescription generateUpdateRow: data asDictionary withId: row first)
-										beExecutedBy: easyC databaseAdapter.
+									easyC updateRow: data asDictionary withId: row first.
 									self refreshList ] named: 'Edit row' ];
 							yourself)

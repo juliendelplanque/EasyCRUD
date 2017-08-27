@@ -4,6 +4,5 @@ addDeleteAction
 		addRowAction: (ECRUDRowBlockAction new
 							name: 'Delete';
 							block: [ :row :easyC | 
-								(easyC tableDescription generateDeleteRowWithId: row first)
-									beExecutedBy: easyC databaseAdapter ];
+								easyC deleteRowWithId: row first ];
 							yourself)

@@ -4,5 +4,5 @@ addNextPageAction
 		addTableAction: (ECRUDTableBlockAction new
 								name: 'Next Page';
 								block: [ :easyC | 
-									((offset + limit) >= (easyC tableDescription generateSelectAllRows beExecutedBy: easyC databaseAdapter) size)
+									((offset + limit) >= easyC selectAllRows size)
 										ifFalse: [ offset := offset + limit. self refreshList ] ])
