@@ -21,7 +21,7 @@ testSerializeSelectQuery
 					limitSize: 5;
 					orderByField: 'first_name';
 					yourself.
-	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name FROM person WHERE id>42 ORDER BY first_name LIMIT 5;'.
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name FROM person WHERE id>42 ORDER BY first_name ASC LIMIT 5;'.
 	
 	query := ECRUDSelectQuery new
 					tableIdentifier: 'person';
@@ -29,4 +29,19 @@ testSerializeSelectQuery
 					limitSize: 5;
 					offset: 10;
 					yourself.
-	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name FROM person LIMIT 5 OFFSET 10;'
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name FROM person LIMIT 5 OFFSET 10;'.
+	
+	query := ECRUDSelectQuery new
+					tableIdentifier: 'person';
+					fieldsSelected: #(first_name last_name);
+					orderByField: 'first_name';
+					yourself.
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name,last_name FROM person ORDER BY first_name ASC;'.
+	
+	query := ECRUDSelectQuery new
+					tableIdentifier: 'person';
+					fieldsSelected: #(first_name last_name);
+					orderByField: 'first_name';
+					orderByDesc;
+					yourself.
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name,last_name FROM person ORDER BY first_name DESC;'

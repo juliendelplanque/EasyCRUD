@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDDateType",
+	"pools" : [
+		 ],
+	"super" : "ECRUDFieldType",
+	"type" : "normal" }
