@@ -1,3 +1,4 @@
-accessing
+accessing - fields
 displayFields
-	^ self displayFieldsOriginalNames collect: [ :s | self tableDescription fieldNamed: s ]
+	"Returns the list of fields to expose for Read operation."
+	^ displayFieldsNames collect: [ :s | self tableDescription fieldNamed: s ]

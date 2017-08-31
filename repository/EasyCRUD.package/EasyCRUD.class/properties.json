@@ -12,6 +12,7 @@
 		"fieldsAliases",
 		"addFieldsNames",
 		"editFieldsNames",
+		"displayFieldsNames",
 		"requiredFieldsNames",
 		"rowActions",
 		"tableActions" ],

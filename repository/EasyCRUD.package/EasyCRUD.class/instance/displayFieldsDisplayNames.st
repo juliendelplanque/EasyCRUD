@@ -1,3 +1,0 @@
-accessing
-displayFieldsDisplayNames
-	^ fieldsAliases values

@@ -4,6 +4,7 @@ initialize
 	fieldsAliases := OrderedDictionary new.
 	addFieldsNames := #().
 	editFieldsNames := #().
+	displayFieldsNames := #().
 	requiredFieldsNames := #().
 	self
 		subject: '';
