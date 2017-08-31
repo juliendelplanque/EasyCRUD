@@ -9,7 +9,7 @@ openEditSpecFor: row fields: fields and: easyC actionOnOk: block named: aString
 							#(ecrudinst_cancel ButtonModel ecrudinst_ok ButtonModel).
 	fields do: [ :field |
 		(('ecrudinst_' , field name asLowercase , '_label') asSymbol value: ui)
-			label: (self easyCrud displayNameOfFieldNamed: field name).
+			label: (self easyCrud aliasOfFieldNamed: field name).
 		(('ecrudinst_' , field name asLowercase) asSymbol value: ui)
 			text: (row at: ((fields collect: #name) indexOf: field name)) asString;
 			autoAccept: true ].

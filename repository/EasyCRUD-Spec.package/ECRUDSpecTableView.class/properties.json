@@ -10,7 +10,8 @@
 		"limit",
 		"offset",
 		"list",
-		"menu" ],
+		"menu",
+		"lastSelectResult" ],
 	"name" : "ECRUDSpecTableView",
 	"pools" : [
 		 ],

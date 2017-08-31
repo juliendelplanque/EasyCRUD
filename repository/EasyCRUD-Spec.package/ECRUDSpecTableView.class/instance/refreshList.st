@@ -2,9 +2,7 @@ refreshing
 refreshList
 	self easyCrud isNotNil
 		ifFalse: [ ^ self ].
-		
+	
+	lastSelectResult := self easyCrud selectLimit: limit offset: offset.
 	self list
-		items: { 
-			self easyCrud tableDescription allFieldsNames
-				collect: [ :fieldName | self easyCrud displayNameOfFieldNamed: fieldName ]
-			 } , (self easyCrud selectLimit: limit offset: offset)
+		items: { 	self easyCrud displayFieldsAliases } , (lastSelectResult collect: #allButFirst)

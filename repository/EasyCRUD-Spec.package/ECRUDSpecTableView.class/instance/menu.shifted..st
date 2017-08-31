@@ -13,6 +13,10 @@ menu: menuHolder shifted: shifted
 	self easyCrud rowActions do: [ :action |
 		menuHolder
 			add: action name
-			target: [ action row: list selectedItem; execute. self refreshList ]
+			target: [ 
+				action
+					row: (lastSelectResult at: list selectedIndex - 1);
+					execute.
+				self refreshList ]
 			selector: #value ].
 	^ menuHolder
