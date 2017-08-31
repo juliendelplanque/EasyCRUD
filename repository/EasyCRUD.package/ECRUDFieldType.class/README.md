@@ -1,0 +1,1 @@
+I am an abstract class to represent a field type.

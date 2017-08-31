@@ -1,0 +1,1 @@
+I represent the integer type.
