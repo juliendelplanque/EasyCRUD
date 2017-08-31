@@ -1,4 +1,4 @@
 queries
 deleteRowWithId: id
-	^ (self tableDescription tableDescription generateDeleteRowWithId: id)
+	^ (self tableDescription generateDeleteRowWithId: id)
 			beExecutedBy: self databaseAdapter
