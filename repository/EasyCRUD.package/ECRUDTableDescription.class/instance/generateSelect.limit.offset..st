@@ -1,8 +1,8 @@
 query generation
-generateSelectLimit: limit offset: offset
+generateSelect: fieldsNames limit: limit offset: offset
 	^ ECRUDSelectQuery new
 			tableIdentifier: self name;
-			fieldsSelected: {self pkField name},(self fields collect: #name);
+			fieldsSelected: fieldsNames;
 			limitSize: limit;
 			offset: offset;
 			yourself

@@ -1,4 +1,4 @@
 queries
 selectAllRows
-	^ self tableDescription generateSelectAllRows
+	^ (self tableDescription generateSelectAllRowsForFieldsNamed: self displayFieldsOriginalNames)
 		beExecutedBy: self databaseAdapter

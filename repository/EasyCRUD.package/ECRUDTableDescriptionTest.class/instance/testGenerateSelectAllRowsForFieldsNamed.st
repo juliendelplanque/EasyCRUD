@@ -1,7 +1,7 @@
 tests-query generation
-testGenerateSelectAllRows
+testGenerateSelectAllRowsForFieldsNamed
 	| query |
-	query := tableDescription generateSelectAllRows.
+	query := tableDescription generateSelectAllRowsForFieldsNamed: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY').
 	
 	self
 		assert: query tableIdentifier equals: 'COMPANY';

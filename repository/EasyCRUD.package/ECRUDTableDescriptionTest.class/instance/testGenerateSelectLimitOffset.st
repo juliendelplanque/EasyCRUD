@@ -1,7 +1,7 @@
 tests-query generation
 testGenerateSelectLimitOffset
 	| query |
-	query := tableDescription generateSelectLimit: 3 offset: 5.
+	query := tableDescription generateSelect: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY') limit: 3 offset: 5.
 	
 	self
 		assert: query tableIdentifier equals: 'COMPANY';
