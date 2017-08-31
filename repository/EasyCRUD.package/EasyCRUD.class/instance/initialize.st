@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	fieldsAliases := Dictionary new.
+	fieldsAliases := OrderedDictionary new.
 	addFieldsNames := #().
 	editFieldsNames := #().
 	requiredFieldsNames := #().
