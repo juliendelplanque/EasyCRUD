@@ -1,0 +1,3 @@
+accessing
+foreignKey
+	^ self from

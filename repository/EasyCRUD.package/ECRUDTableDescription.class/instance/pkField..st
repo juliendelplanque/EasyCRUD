@@ -1,3 +1,6 @@
 accessing
-pkField: anObject
-	pkField := anObject
+pkField: anECRUDFieldDescription
+	pkField := anECRUDFieldDescription.
+	anECRUDFieldDescription
+		beForDatabaseDescription: self databaseDescription;
+		tableDescription: self

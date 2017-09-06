@@ -1,0 +1,3 @@
+accessing
+foreignKey: anECRUDFieldDescription
+	self from: anECRUDFieldDescription

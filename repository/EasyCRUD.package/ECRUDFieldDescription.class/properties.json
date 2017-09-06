@@ -8,7 +8,7 @@
 	"instvars" : [
 		"name",
 		"type",
-		"referencedField" ],
+		"tableDescription" ],
 	"name" : "ECRUDFieldDescription",
 	"pools" : [
 		 ],

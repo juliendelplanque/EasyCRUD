@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/6/2017 15:42",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDForeignKeyRelationDescription",
+	"pools" : [
+		 ],
+	"super" : "ECRUDRelationDescription",
+	"type" : "normal" }
