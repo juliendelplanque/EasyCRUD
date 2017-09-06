@@ -1,0 +1,3 @@
+database description dispatching
+beAddedIn: anECRUDDatabaseDescription
+	anECRUDDatabaseDescription addTable: self

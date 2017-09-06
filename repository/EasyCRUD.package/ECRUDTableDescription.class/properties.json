@@ -12,5 +12,5 @@
 	"name" : "ECRUDTableDescription",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ECRUDDatabaseItemDescription",
 	"type" : "normal" }

@@ -1,0 +1,3 @@
+database description dispatching
+beAddedIn: anECRUDDatabaseDescription
+	self subclassResponsibility

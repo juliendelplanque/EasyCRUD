@@ -1,0 +1,1 @@
+I am the description of a database. I hold description of tables and relations between these tables.

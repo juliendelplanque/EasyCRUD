@@ -1,0 +1,1 @@
+I am the abstract description of a relation between two item descriptions in a database description.

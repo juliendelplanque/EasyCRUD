@@ -1,0 +1,1 @@
+I am the abstract object used to describe an item held in a database.

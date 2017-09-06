@@ -1,0 +1,3 @@
+adding
+addRelation: anECRUDRelationDescription
+	self relations add: anECRUDRelationDescription

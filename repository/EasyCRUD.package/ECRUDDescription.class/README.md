@@ -1,0 +1,1 @@
+I am the abstract object used to describe a concept of a database.
