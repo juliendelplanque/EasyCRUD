@@ -1,3 +1,3 @@
 accessing
 tableIdentifier
-	^ tableIdentifier
+	^ tableIdentifiers first
