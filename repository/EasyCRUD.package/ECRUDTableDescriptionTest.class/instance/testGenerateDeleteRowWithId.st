@@ -5,4 +5,4 @@ testGenerateDeleteRowWithId
 	self
 		assert: query tableIdentifier equals: 'COMPANY';
 		assert: query whereClause size equals: 1;
-		assertCollection: query whereClause first hasSameElements: #('ID' '=' 1)
+		assertCollection: query whereClause first hasSameElements: #('COMPANY.ID' '=' 1)

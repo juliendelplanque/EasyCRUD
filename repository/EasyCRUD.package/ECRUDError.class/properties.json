@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/19/2017 18:59",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
