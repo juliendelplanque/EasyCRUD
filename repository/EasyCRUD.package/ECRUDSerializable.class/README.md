@@ -1,0 +1,1 @@
+I am an abstract object that can be serialized using #beSerializedBy:.

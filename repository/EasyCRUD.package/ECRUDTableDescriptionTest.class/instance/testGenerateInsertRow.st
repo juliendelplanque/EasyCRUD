@@ -5,8 +5,8 @@ testGenerateInsertRow
 	self
 		assert: query tableIdentifier equals: 'COMPANY';
 		assert: query dataDict size equals: 5;
-		assert: (query dataDict at: 'ID') equals: 1;
-		assert: (query dataDict at: 'NAME') equals: 'Bill';
-		assert: (query dataDict at: 'AGE') equals: 20;
-		assert: (query dataDict at: 'ADDRESS') equals: 'New York';
-		assert: (query dataDict at: 'SALARY') equals: 2000.58
+		assert: (query dataDict at: 'COMPANY.ID') equals: 1;
+		assert: (query dataDict at: 'COMPANY.NAME') equals: 'Bill';
+		assert: (query dataDict at: 'COMPANY.AGE') equals: 20;
+		assert: (query dataDict at: 'COMPANY.ADDRESS') equals: 'New York';
+		assert: (query dataDict at: 'COMPANY.SALARY') equals: 2000.58

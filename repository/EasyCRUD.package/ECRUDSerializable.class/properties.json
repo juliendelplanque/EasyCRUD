@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 8/24/2017 12:06",
+	"commentStamp" : "JulienDelplanque 9/19/2017 21:42",
 	"instvars" : [
-		"tableIdentifiers" ],
-	"name" : "ECRUDQuery",
+		 ],
+	"name" : "ECRUDSerializable",
 	"pools" : [
 		 ],
-	"super" : "ECRUDSerializable",
+	"super" : "Object",
 	"type" : "normal" }
