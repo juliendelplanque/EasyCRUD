@@ -1,3 +1,3 @@
 accessing
-fieldsSelected: anObject
-	fieldsSelected := anObject
+fieldsSelected: aListOfIdentifiers
+	fieldsSelected := aListOfIdentifiers collect: #asECRUDIdentifier

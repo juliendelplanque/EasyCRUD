@@ -1,0 +1,1 @@
+I represent the binary expression expressing the equality between left and right.

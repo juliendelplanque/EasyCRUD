@@ -4,7 +4,7 @@ testGenerateSelectLimitOffset
 	query := tableDescription generateSelect: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY') limit: 3 offset: 5.
 	
 	self
-		assert: query tableIdentifier equals: 'COMPANY';
-		assertCollection: query fieldsSelected hasSameElements: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY');
+		assert: query tableIdentifier equals: 'COMPANY' asECRUDIdentifier;
+		assertCollection: query fieldsSelected hasSameElements: (#('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY') collect: #asECRUDIdentifier);
 		assert: query limitSize equals: 3;
 		assert: query offset equals: 5

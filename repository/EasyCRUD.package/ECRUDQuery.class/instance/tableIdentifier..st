@@ -1,3 +1,3 @@
 accessing
 tableIdentifier: anObject
-	tableIdentifiers := { anObject }
+	self tableIdentifiers: { anObject }

@@ -1,3 +1,3 @@
 accessing
-tableIdentifiers: anObject
-	tableIdentifiers := anObject
+tableIdentifiers: aListOfIdentifiers
+	tableIdentifiers := aListOfIdentifiers collect: #asECRUDIdentifier

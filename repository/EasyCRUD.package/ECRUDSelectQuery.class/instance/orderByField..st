@@ -1,3 +1,3 @@
 accessing
-orderByField: anObject
-	orderByField := anObject
+orderByField: anIdentifier
+	orderByField := anIdentifier asECRUDIdentifier

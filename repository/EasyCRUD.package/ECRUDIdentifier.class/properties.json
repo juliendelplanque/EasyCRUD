@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 9/26/2017 21:17",
+	"commentStamp" : "JulienDelplanque 9/26/2017 21:23",
 	"instvars" : [
-		 ],
-	"name" : "ECRUDEquals",
+		"identifierString" ],
+	"name" : "ECRUDIdentifier",
 	"pools" : [
 		 ],
-	"super" : "ECRUDBinaryExpression",
+	"super" : "ECRUDSerializable",
 	"type" : "normal" }

@@ -4,6 +4,6 @@ serializeOrderByClauseOf: anECRUDQuery on: stream
 		ifFalse: [ ^ self ].
 	stream
 		<< ' ORDER BY ';
-		<< anECRUDQuery orderByField;
+		<< (anECRUDQuery orderByField beSerializedBy: self);
 		<< ' ';
 		<< anECRUDQuery orderByDirection

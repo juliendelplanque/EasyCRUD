@@ -4,5 +4,5 @@ testGenerateSelectAllRowsForFieldsNamed
 	query := tableDescription generateSelectAllRowsForFieldsNamed: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY').
 	
 	self
-		assert: query tableIdentifier equals: 'COMPANY';
-		assertCollection: query fieldsSelected hasSameElements: #('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY')
+		assert: query tableIdentifier equals: 'COMPANY' asECRUDIdentifier;
+		assertCollection: query fieldsSelected hasSameElements: (#('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY') collect: #asECRUDIdentifier)

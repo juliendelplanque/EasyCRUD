@@ -1,0 +1,3 @@
+converting
+asECRUDIdentifier
+	^ self

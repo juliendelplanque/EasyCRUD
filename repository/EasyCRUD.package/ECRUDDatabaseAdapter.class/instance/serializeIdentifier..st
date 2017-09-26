@@ -1,0 +1,3 @@
+queries generation
+serializeIdentifier: anECRUDIdentifier
+	^ anECRUDIdentifier identifierString

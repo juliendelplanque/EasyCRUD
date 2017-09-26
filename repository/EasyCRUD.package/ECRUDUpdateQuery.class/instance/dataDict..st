@@ -1,3 +1,4 @@
 accessing
-dataDict: anObject
-	dataDict := anObject
+dataDict: aDictionary
+	dataDict := (aDictionary associations collect: [ :assoc |
+		assoc head asECRUDIdentifier -> assoc tail ]) asDictionary
