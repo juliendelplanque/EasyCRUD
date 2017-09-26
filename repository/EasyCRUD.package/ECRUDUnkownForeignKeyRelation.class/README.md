@@ -1,0 +1,1 @@
+I am the error raised when the user try to access a foreign key relation that does not exists (or is not described in the model).

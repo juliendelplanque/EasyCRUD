@@ -5,8 +5,10 @@ serializeSelectQuery: anECRUDSelectQuery
 		anECRUDSelectQuery fieldsSelected
 			do: [ :id | stream << (id beSerializedBy: self) ] separatedBy: [ stream << $, ].
 		stream
-			<< ' FROM ';
-			<< (anECRUDSelectQuery tableIdentifier beSerializedBy: self).
+			<< ' FROM '.
+		anECRUDSelectQuery tableIdentifiers
+			do: [ :tableIdentifier | stream << (tableIdentifier beSerializedBy: self) ]
+			separatedBy: [ stream << $, ].
 		self
 			serializeWhereClauseOf: anECRUDSelectQuery on: stream;
 			serializeOrderByClauseOf: anECRUDSelectQuery on: stream;

@@ -5,6 +5,6 @@ testGenerateSelectLimitOffset
 	
 	self
 		assert: query tableIdentifier equals: 'COMPANY' asECRUDIdentifier;
-		assertCollection: query fieldsSelected hasSameElements: (#('ID' 'NAME' 'AGE' 'ADDRESS' 'SALARY') collect: #asECRUDIdentifier);
+		assertCollection: query fieldsSelected hasSameElements: (#('COMPANY.ID' 'COMPANY.NAME' 'COMPANY.AGE' 'COMPANY.ADDRESS' 'COMPANY.SALARY') collect: #asECRUDIdentifier);
 		assert: query limitSize equals: 3;
 		assert: query offset equals: 5

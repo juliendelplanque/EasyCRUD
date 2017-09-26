@@ -6,6 +6,7 @@ initialize
 	editFieldsNames := #().
 	displayFieldsNames := #().
 	requiredFieldsNames := #().
+	oneToNRelations := OrderedCollection new.
 	self
 		subject: '';
 		rowActions: OrderedCollection new;

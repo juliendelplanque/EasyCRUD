@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/27/2017 00:02",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDUnkownForeignKeyRelation",
+	"pools" : [
+		 ],
+	"super" : "ECRUDError",
+	"type" : "normal" }

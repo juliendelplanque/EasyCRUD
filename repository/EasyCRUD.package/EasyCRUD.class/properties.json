@@ -15,7 +15,8 @@
 		"displayFieldsNames",
 		"requiredFieldsNames",
 		"rowActions",
-		"tableActions" ],
+		"tableActions",
+		"oneToNRelations" ],
 	"name" : "EasyCRUD",
 	"pools" : [
 		 ],
