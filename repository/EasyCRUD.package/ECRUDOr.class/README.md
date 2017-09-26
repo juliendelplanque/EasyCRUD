@@ -1,0 +1,1 @@
+I represent the binary expression expressing the logical or between left and right.

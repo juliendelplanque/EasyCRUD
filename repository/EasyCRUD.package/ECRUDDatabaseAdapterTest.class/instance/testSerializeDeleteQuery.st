@@ -3,7 +3,7 @@ testSerializeDeleteQuery
 	| query |
 	query := ECRUDDeleteQuery new
 					tableIdentifier: 'person';
-					whereClause: #(('id' = 42));
+					whereClause: (ECRUDEquals left: 'id' asECRUDIdentifier right: 42);
 					yourself.
 	self
 		assert: (adapter serializeDeleteQuery: query)

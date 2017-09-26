@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/26/2017 22:50",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDAnd",
+	"pools" : [
+		 ],
+	"super" : "ECRUDBinaryExpression",
+	"type" : "normal" }

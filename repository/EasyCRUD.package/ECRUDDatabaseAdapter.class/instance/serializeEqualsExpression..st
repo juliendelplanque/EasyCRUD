@@ -1,3 +1,4 @@
 queries generation
 serializeEqualsExpression: anECRUDEquals
-	self flag: #todo; halt
+	^ String streamContents: [ :stream |
+		self serializeBinaryExpression: anECRUDEquals withOperator: $= on: stream ]

@@ -1,0 +1,1 @@
+I represent the binary expression expressing that left is strictly smaller than right.

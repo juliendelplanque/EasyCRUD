@@ -13,5 +13,6 @@ serializeUpdateQuery: anECRUDUpdateQuery
 					<< $=;
 					<< (assoc tail beSerializedBy: self) ]
 			separatedBy: [ stream << $, ].
-		self serializeWhereClauseOf: anECRUDUpdateQuery on: stream.
+		self
+			serializeWhereClauseOf: anECRUDUpdateQuery on: stream.
 		stream << $; ]

@@ -1,0 +1,1 @@
+I represent the binary expression expressing that left is greater or equal to right.

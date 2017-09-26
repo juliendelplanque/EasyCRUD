@@ -1,0 +1,3 @@
+serialization
+beSerializedBy: anECRUDDatabaseAdapter
+	^ anECRUDDatabaseAdapter serializeAndExpression: self

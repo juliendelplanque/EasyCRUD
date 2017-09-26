@@ -1,10 +1,7 @@
 private - query generation
-serializeWhereClauseOf: anECRUDQuery on: stream
-	anECRUDQuery hasWhereClause
+serializeWhereClauseOf: anECRUDQueryWithWhereClause on: stream
+	anECRUDQueryWithWhereClause hasWhereClause
 		ifFalse: [ ^ self ].
-	stream << ' WHERE '.
-	anECRUDQuery whereClause do: [ :clause |
-		stream
-			<< (clause first asECRUDIdentifier beSerializedBy: self);
-			<< clause second;
-			<<	(clause third beSerializedBy: self) ] separatedBy: [ stream << ' AND ' ]
+	stream
+		<< ' WHERE ';
+		<< (anECRUDQueryWithWhereClause whereClause beSerializedBy: self)

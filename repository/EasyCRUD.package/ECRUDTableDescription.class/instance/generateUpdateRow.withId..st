@@ -7,5 +7,5 @@ generateUpdateRow: dataDict withId: id
 	^ ECRUDUpdateQuery new
 			tableIdentifier: self name;
 			dataDict: processedDataDict;
-			whereClause: { { self pkField name . '=' . id } }
+			whereClause: (ECRUDEquals left: self pkField fullName asECRUDIdentifier right: id);
 			yourself

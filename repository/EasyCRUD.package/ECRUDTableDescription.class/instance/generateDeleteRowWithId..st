@@ -2,5 +2,5 @@ query generation
 generateDeleteRowWithId: id
 	^ ECRUDDeleteQuery new
 		tableIdentifier: self name;
-		whereClause: { { self pkField fullName . '=' . id } };
+		whereClause: (ECRUDEquals left: self pkField fullName asECRUDIdentifier right: id);
 		yourself
