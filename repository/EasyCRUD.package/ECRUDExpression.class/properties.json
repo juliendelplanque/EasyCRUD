@@ -1,0 +1,15 @@
+{
+	"category" : "EasyCRUD-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/19/2017 21:49",
+	"instvars" : [
+		"left",
+		"right" ],
+	"name" : "ECRUDExpression",
+	"pools" : [
+		 ],
+	"super" : "ECRUDSerializable",
+	"type" : "normal" }

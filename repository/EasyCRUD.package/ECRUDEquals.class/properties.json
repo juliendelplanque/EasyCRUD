@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ECRUDEquals",
+	"pools" : [
+		 ],
+	"super" : "ECRUDExpression",
+	"type" : "normal" }
