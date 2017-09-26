@@ -4,6 +4,7 @@ serializeWhereClauseOf: anECRUDQuery on: stream
 		ifFalse: [ ^ self ].
 	stream << ' WHERE '.
 	anECRUDQuery whereClause do: [ :clause |
-		self writeIdentifier: clause first on: stream.
-		stream << clause second.
-		clause third beWrittenBy: self on: stream ] separatedBy: [ stream << ' AND ' ]
+		stream
+			<< (clause first asECRUDIdentifier beSerializedBy: self);
+			<< clause second;
+			<<	(clause third beSerializedBy: self) ] separatedBy: [ stream << ' AND ' ]

@@ -13,5 +13,5 @@ serializeInsertQuery: anECRUDInsertQuery
 		columnIdentifiers do: [ :id | stream << (id beSerializedBy: self) ] separatedBy: [ stream << $, ].
 		stream
 			<< ') VALUES ('.
-		self writeValues: values on: stream. 
+		values do: [ :value | stream << (value beSerializedBy: self) ] separatedBy: [ stream << $, ].
 		stream << ');' ]

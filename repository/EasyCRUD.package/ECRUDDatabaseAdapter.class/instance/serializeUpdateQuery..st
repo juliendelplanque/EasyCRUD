@@ -10,8 +10,8 @@ serializeUpdateQuery: anECRUDUpdateQuery
 			do: [ :assoc |
 				stream
 					<< (assoc head beSerializedBy: self);
-					<< $=.
-				self writeValue: assoc tail on: stream ]
+					<< $=;
+					<< (assoc tail beSerializedBy: self) ]
 			separatedBy: [ stream << $, ].
 		self serializeWhereClauseOf: anECRUDUpdateQuery on: stream.
 		stream << $; ]
