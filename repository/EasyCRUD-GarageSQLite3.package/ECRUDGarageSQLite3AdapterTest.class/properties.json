@@ -1,0 +1,14 @@
+{
+	"category" : "EasyCRUD-GarageSQLite3-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"adapter" ],
+	"name" : "ECRUDGarageSQLite3AdapterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
