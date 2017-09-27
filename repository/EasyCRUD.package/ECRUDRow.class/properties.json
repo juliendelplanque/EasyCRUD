@@ -1,0 +1,15 @@
+{
+	"category" : "EasyCRUD-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/27/2017 12:24",
+	"instvars" : [
+		"data",
+		"resultSet" ],
+	"name" : "ECRUDRow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

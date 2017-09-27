@@ -1,0 +1,1 @@
+I am a set of results returned by the execution of a query by the DBMS.
