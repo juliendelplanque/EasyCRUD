@@ -10,14 +10,14 @@ testSerializeSelectQuery
 	query := ECRUDSelectQuery new
 					tableIdentifier: 'person';
 					fieldsSelected: #(first_name);
-					whereClause: (ECRUDAnd left: (ECRUDGreater left: 'id' asECRUDIdentifier right: 42) right: (ECRUDSmaller left: 'id' asECRUDIdentifier right: 52));
+					whereClause: (('id' asECRUDIdentifier greater: 42) and: ('id' asECRUDIdentifier smaller: 52));
 					yourself.
 	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name FROM person WHERE id>42 AND id<52;'.
 	
 	query := ECRUDSelectQuery new
 					tableIdentifier: 'person';
 					fieldsSelected: #(first_name);
-					whereClause: (ECRUDGreater left: 'id' asECRUDIdentifier right: 42);
+					whereClause: ('id' asECRUDIdentifier greater: 42);
 					limitSize: 5;
 					orderByField: 'first_name';
 					yourself.

@@ -2,6 +2,7 @@
 	"category" : "EasyCRUD-Queries",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "ECRUDTExpression classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 9/26/2017 21:15",
@@ -12,4 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "ECRUDSerializable",
+	"traitcomposition" : "ECRUDTExpression",
 	"type" : "normal" }
