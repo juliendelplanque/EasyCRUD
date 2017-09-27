@@ -44,4 +44,11 @@ testSerializeSelectQuery
 					orderByField: 'first_name';
 					orderByDesc;
 					yourself.
-	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name,last_name FROM person ORDER BY first_name DESC;'
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name,last_name FROM person ORDER BY first_name DESC;'.
+	
+	query := ECRUDSelectQuery new
+					tableIdentifier: 'person';
+					fieldsSelected: #(first_name);
+					distinct: true;
+					yourself.
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT DISTINCT first_name FROM person;'

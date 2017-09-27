@@ -10,7 +10,8 @@
 		"limitSize",
 		"offset",
 		"orderByField",
-		"orderByDirection" ],
+		"orderByDirection",
+		"distinct" ],
 	"name" : "ECRUDSelectQuery",
 	"pools" : [
 		 ],

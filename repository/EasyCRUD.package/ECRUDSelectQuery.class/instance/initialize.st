@@ -2,4 +2,5 @@ initialization
 initialize
 	super initialize.
 	self
-		orderByAsc
+		orderByAsc;
+		distinct: false

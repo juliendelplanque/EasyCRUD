@@ -2,6 +2,8 @@ queries generation
 serializeSelectQuery: anECRUDSelectQuery
 	^ String streamContents: [ :stream |
 		stream << 'SELECT '.
+		anECRUDSelectQuery distinct
+			ifTrue: [ stream << 'DISTINCT ' ].
 		anECRUDSelectQuery fieldsSelected
 			do: [ :id | stream << (id beSerializedBy: self) ] separatedBy: [ stream << $, ].
 		stream
