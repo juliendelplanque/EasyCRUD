@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	self
 		orderByAsc;
-		distinct: false
+		distinct: false.
+	renameDict := Dictionary new

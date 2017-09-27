@@ -11,7 +11,8 @@
 		"offset",
 		"orderByField",
 		"orderByDirection",
-		"distinct" ],
+		"distinct",
+		"renameDict" ],
 	"name" : "ECRUDSelectQuery",
 	"pools" : [
 		 ],

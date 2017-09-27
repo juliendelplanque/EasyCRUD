@@ -51,4 +51,12 @@ testSerializeSelectQuery
 					fieldsSelected: #(first_name);
 					distinct: true;
 					yourself.
-	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT DISTINCT first_name FROM person;'
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT DISTINCT first_name FROM person;'.
+	
+	query := ECRUDSelectQuery new
+					tableIdentifier: 'person';
+					fieldsSelected: #(first_name last_name);
+					renameField: 'first_name' as: 'first';
+					renameField: 'last_name' as: 'last';
+					yourself.
+	self assert: (adapter serializeSelectQuery: query) equals: 'SELECT first_name AS first,last_name AS last FROM person;'
