@@ -6,6 +6,6 @@ selectLimit: limit offset: offset
 		ifFalse: [
 			^ (self tableDescription generateSelect: { self tableDescription pkField name } , displayFieldsNames limit: limit offset: offset)
 					beExecutedBy: self databaseAdapter ].
-				
+	
 	^ (self tableDescription generateSelect: { self tableDescription pkField name } , displayFieldsNames limit: limit offset: offset withForeignKeyRelations: self oneToNRelations)
 			beExecutedBy: self databaseAdapter
