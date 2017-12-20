@@ -5,4 +5,7 @@ refreshList
 	
 	lastSelectResult := self easyCrud selectLimit: limit offset: offset.
 	self list
-		items: { 	self easyCrud displayFieldsAliases } , (lastSelectResult collect: #allButFirst)
+		resetSelection;
+		items: { 	self easyCrud displayFieldsAliases } ,
+			(lastSelectResult collect: [ :row |
+				row dataForFields: (self easyCrud displayFieldsNames ) ])
